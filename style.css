@@ -21,6 +21,8 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
+
+.item__label,
 .task {
   width: 56%;
   display: inline-block;
@@ -94,7 +96,7 @@ input[type="text"]:focus {
 .item__checkbox {
   margin: 0 10px; 
 }
-.item > label {
+.item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -111,7 +113,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed-tasks .item__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -127,7 +129,7 @@ button.delete img:hover {
   width: 224px;
 }
 
-.list .item.edit-mode label {
+.list .item.edit-mode .item__label {
   display: none;
 }
 
