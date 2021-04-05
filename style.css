@@ -123,12 +123,12 @@ input[type="text"]:focus {
   width: 226px;
 }
 
-.list .item.edit-mode .item__text {
+.item.item_edit-mode .item__text {
   display: inline-block;
   width: 224px;
 }
 
-.list .item.edit-mode .item__label {
+.item.item_edit-mode .item__label {
   display: none;
 }
 
