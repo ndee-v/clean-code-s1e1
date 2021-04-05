@@ -26,7 +26,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-ul {
+.list {
   margin: 0;
   padding: 0px;
 }
@@ -117,16 +117,16 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul .item input[type="text"] {
+.list .item input[type="text"] {
   display: none;
 }
 
-ul .item.edit-mode input[type="text"] {
+.list .item.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul .item.edit-mode label {
+.list .item.edit-mode label {
   display: none;
 }
 
