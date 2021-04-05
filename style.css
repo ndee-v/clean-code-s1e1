@@ -30,9 +30,7 @@ body {
   margin: 0;
   padding: 0px;
 }
-.item, h3 {
-  list-style:none;
-}
+
 input,button{
   outline: none;
 }
