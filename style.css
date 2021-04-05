@@ -88,8 +88,11 @@ input[type="text"]:focus {
   vertical-align: middle;
 }
 
-.item > input[type="checkbox"] {
+/* .item > input[type="checkbox"] {
   margin: 0 10px;
+} */
+.item__checkbox {
+  margin: 0 10px; 
 }
 .item > label {
   padding-left: 10px;
