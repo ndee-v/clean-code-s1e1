@@ -1,6 +1,7 @@
 /* Basic Style */
-body {
+.wrapper {
   background-color: #f8f8f8;
+  min-height: 100vh;
   color: #333;
   font-family: Lato, sans-serif;
 }
