@@ -33,7 +33,8 @@ body {
   padding: 0px;
 }
 
-input,
+.item__text,
+.item__checkbox,
 .item__btn {
   outline: none;
 }
