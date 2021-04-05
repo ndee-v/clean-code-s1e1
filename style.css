@@ -22,7 +22,6 @@ body {
   margin: 0 auto 0;
 }
 
-.new-task__text,
 .item__label,
 .item__text {
   width: 56%;
@@ -78,7 +77,6 @@ input[type="text"]:focus {
 
 
 /* Task list */
-.new-task,
 .item {
   overflow: hidden;
   padding: 20px 0;
