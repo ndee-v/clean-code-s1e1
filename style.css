@@ -26,9 +26,6 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-/* .task-row-wrapper {
-  display: flex;
-} */
 ul {
   margin: 0;
   padding: 0px;
@@ -87,7 +84,7 @@ input#new-task {
 }
 
 /* Task list */
-.task-row-wrapper,
+.new-task,
 li {
   overflow: hidden;
   padding: 20px 0;
