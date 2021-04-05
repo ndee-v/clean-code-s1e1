@@ -119,7 +119,7 @@ h3 {
 }
 
 /* Edit Task */
-.list .item .item__text {
+.list .item__text {
   display: none;
   width: 226px;
 }
