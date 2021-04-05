@@ -120,8 +120,8 @@ body {
 }
 
 #completed-tasks .item__label {
-    text-decoration: line-through;
-    color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 @media (max-width:768px) {
