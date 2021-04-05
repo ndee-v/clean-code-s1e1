@@ -26,9 +26,9 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-/* .task-row-wrapper {
+.task-row-wrapper {
   display: flex;
-} */
+}
 ul {
   margin: 0;
   padding: 0px;
@@ -52,8 +52,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
-label[for="new-task"] {
+h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -88,7 +87,6 @@ input#new-task {
 }
 
 /* Task list */
-.task-row-wrapper,
 li {
   overflow: hidden;
   padding: 20px 0;
