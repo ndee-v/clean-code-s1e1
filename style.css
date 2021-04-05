@@ -22,8 +22,9 @@ body {
   margin: 0 auto 0;
 }
 
+.new-task__text,
 .item__label,
-.task {
+.item__text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -119,12 +120,12 @@ button.delete img:hover {
 }
 
 /* Edit Task */
-.list .item input[type="text"] {
+.list .item .item__text {
   display: none;
   width: 226px;
 }
 
-.list .item.edit-mode input[type="text"] {
+.list .item.edit-mode .item__text {
   display: inline-block;
   width: 224px;
 }
